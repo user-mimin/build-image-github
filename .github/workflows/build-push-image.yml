@@ -8,7 +8,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-      - name: Build image
+      - name: Build Image
         run: docker build -t imageku .
 
       - name: List image
